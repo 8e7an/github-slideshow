@@ -4,8 +4,8 @@ layout: presentation
 
 {% for post in site.posts reversed %}
 	{% include slide.html %}
-	<div class="page-break"></div>
-	<img src="/images/woodwork-tools.jpg" alt="Woodwork Tools" width="120">
+	<div class="page-break" data-test="A"></div>
+<!-- 	<img src="/images/woodwork-tools.jpg" alt="Woodwork Tools" width="120"> -->
 {% endfor %}
 {% unless site.simple-slideshow %}
 {% if site.overview %}
